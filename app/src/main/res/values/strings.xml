@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="accessibility_service_description">JARVIS requires Accessibility access to interact with apps, read screen elements, and execute voice-commanded automations like typing, clicking, and navigation.</string>
+</resources>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Arc Reactor Ring Segments -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32,54 A 22,22 0 0,1 46,33" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 62,33 A 22,22 0 0,1 76,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 76,54 A 22,22 0 0,1 62,75" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 46,75 A 22,22 0 0,1 32,54" />
+
+    <!-- Corner Tick Marks / Energy Nodes -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M 53,28 L 55,28 L 54,32 Z M 53,80 L 55,80 L 54,76 Z M 28,53 L 28,55 L 32,54 Z M 80,53 L 80,55 L 76,54 Z" />
+
+    <!-- Inner Rotating Tech Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,54 m -15,0 a 15,15 0 1,0 30,0 a 15,15 0 1,0 -30,0" />
+
+    <!-- Inner Segment Dashes -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2"
+        android:pathData="M 43,45 L 47,48 M 65,45 L 61,48 M 43,63 L 47,60 M 65,63 L 61,60" />
+
+    <!-- Central Glowing Core Arc Diamond/Hex -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M 54,43 L 63,54 L 54,65 L 45,54 Z" />
+
+    <!-- Pure Core White Light Center -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,49 L 58,54 L 54,59 L 50,54 Z" />
+
+</vector>
